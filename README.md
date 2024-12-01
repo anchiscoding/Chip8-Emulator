@@ -6,21 +6,21 @@ This project is an emulator for the CHIP-8, a simple interpreted programming lan
 
 ## <ins>Features (Planned & Implemented)
 
-Core Emulation:
+### Core Emulation: <br/>
 [ ] CPU Emulation(opcodes) <br/>
 [ ] Timers(delay and sound) <br/>
 [ ] Memory Management <br/>
 
-Graphics:
+### Graphics: <br/>
 [ ] Display 64x32 Resolution <br/>
 
-Input Handling:
+### Input Handling: <br/>
 [ ] Keyboard mapping for Chip8 keys <br/>
 
-Audio:
+### Audio: <br/>
 [ ] Beep sound for sound timer expiration <br/>
 
-Debugging Tools:
+### Debugging Tools: <br/>
 [ ] Instruction logging <br/>
 [ ] Memory Visualization <br/>
 
@@ -34,9 +34,9 @@ Clone the repository and navigate to the project directory: <br/>
 Make sure you have a compiler such as G++ or Clang and the SFML Libraries
 ```
     # Ubuntu/Debian
-    sudo apt install libsfml-dev
+    sudo apt install g++ libsfml-dev
     # Arch Linux
-    pacman -S sfml
+    pacman -S gcc sfml   
 ```
 ## <ins>Roadmap
 
@@ -48,6 +48,6 @@ Milestone 3: Create a graphical debugger<br/>
 
 ## <ins>Acknowledgements:
 
-Special thanks to the emulator development community for providing me the inspiration to commence with this project
-A very special thanks to [Cowgod's Chip8 Reference](http://devernay.free.fr/hacks/chip8/C8TECH10.HTM) for providing me information on the Chip8 architecture
+Special thanks to the emulator development community for providing me the inspiration to commence with this project. <br/>
+Another special thanks to [Cowgod's Chip8 Reference](http://devernay.free.fr/hacks/chip8/C8TECH10.HTM) for providing me information on the Chip8 architecture
     
