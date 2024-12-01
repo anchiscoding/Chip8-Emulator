@@ -7,25 +7,25 @@ This project is an emulator for the CHIP-8, a simple interpreted programming lan
 ## <ins>Features (Planned & Implemented)
 
 Core Emulation:
-[ ] CPU Emulation(opcodes)
-[ ] Timers(delay and sound)
-[ ] Memory Management
+[ ] CPU Emulation(opcodes) <br/>
+[ ] Timers(delay and sound) <br/>
+[ ] Memory Management <br/>
 
 Graphics:
-[ ] Display 64x32 Resolution
+[ ] Display 64x32 Resolution <br/>
 
 Input Handling:
-[ ] Keyboard mapping for CHIP-8 keys
+[ ] Keyboard mapping for Chip8 keys <br/>
 
 Audio:
-[ ] Beep sound for sound timer expiration
+[ ] Beep sound for sound timer expiration <br/>
 
 Debugging Tools:
-[ ] Instruction logging
-[ ] Memory Visualization
+[ ] Instruction logging <br/>
+[ ] Memory Visualization <br/>
 
 ## <ins>Installation
-Clone the repository and navigate to the project directory:
+Clone the repository and navigate to the project directory: <br/>
 ```
    git clone https://github.com/yourusername/chip8-emulator.git  
    cd chip8-emulator
@@ -40,11 +40,11 @@ Make sure you have a compiler such as G++ or Clang and the SFML Libraries
 ```
 ## <ins>Roadmap
 
-Milestone 1: Implement a functional interpreter capable of running simple programs
+Milestone 1: Implement a functional interpreter capable of running simple programs<br/>
 
-Milestone 2: Add full support for all opcodes and sound
+Milestone 2: Add full support for all opcodes and sound<br/>
 
-Milestone 3: Create a graphical debugger
+Milestone 3: Create a graphical debugger<br/>
 
 ## <ins>Acknowledgements:
 
