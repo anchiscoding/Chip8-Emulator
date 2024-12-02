@@ -4,7 +4,7 @@
 
 This project is an emulator for the CHIP-8, a simple interpreted programming language designed in the 1970s for creating games. The emulator aims to faithfully replicate the CHIP-8's behavior, enabling the execution of CHIP-8 programs (also known as ROMs).
 
-## <ins>Features (Planned & Implemented)
+## <ins>Planned Features
 
 ### Core Emulation: <br/>
 [ ] CPU Emulation(opcodes) <br/>
