@@ -26,8 +26,8 @@ void Display::clear_display()
     update_sfml_window();
 }
 
-void Display::dxyn(uint8_t x, uint8_t y, uint8_t num_bytes, uint8_t (&sys_mem)[4*KB], uint16_t I, uint8_t& VF){ // Implementation of Cowgod's reference for the DXYN Draw instruction for Chip8
-    int horizontal_index_start = x;                                                                      //     http://devernay.free.fr/hacks/chip8/C8TECH10.HTM#Dxyn
+void Display::dxyn(uint8_t x, uint8_t y, uint8_t num_bytes, uint8_t (&sys_mem)[4*KB], uint16_t I, uint8_t& VF){ 
+    int horizontal_index_start = x;                                                                      
     int vertical_index_start = y;
 
     for(int offset = 0; offset < num_bytes; offset++){
