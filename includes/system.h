@@ -1,9 +1,5 @@
 #pragma once
-
 #include "shared.h"
-#include <string>
-#include "display.h"
-
 class System {
     public:
         System();
