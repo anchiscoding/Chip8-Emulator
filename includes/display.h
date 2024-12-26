@@ -4,8 +4,6 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Window/VideoMode.hpp>
 #include <SFML/System/Vector2.hpp>
-#include <cstdint>
-#include "shared.h"
 
 class Display {
     public:
